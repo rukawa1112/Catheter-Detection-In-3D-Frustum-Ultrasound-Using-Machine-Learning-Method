@@ -1,4 +1,6 @@
 # Catheter-Detection-In-3D-Frustum-Ultrasound-Using-Machine-Learning-Method
+![steps1](https://user-images.githubusercontent.com/40002403/164995163-ef2a7969-2b9d-4290-986b-fd7bc86994f9.JPG)
+
 The PhantomFrustum.mat includes 12 unconverted 3D US images from Phantom recording condition using TEE Ultrasound probe.
 For each recording, it includes two type data, one is B-mode image while another one is manually annotated voxel indexes belonging to the catheter.
 How to generate the mask (example code):
