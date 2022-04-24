@@ -32,10 +32,10 @@ Vmask=zeros(size(VolumeOfUS));
 Vmask(inliers)=1;
 etc.
 
-FeatureExtraction file includes scripts of how to extract the 3D features from 3D US, see my paper as reference, you can find more details of them.
+FeatureExtraction file includes scripts of how to extract the 3D features from 3D US.
 
 Processing.m is an example of how to extract features from different dataset and different featuer type, also includes how to extract multi-scale features
 
 LOOCVFusion.m shows example of how to perform the Leave-one-out-cross-validaton on each dataset.
 
-If you have more questions, please feel free to contact me.
+
