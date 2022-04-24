@@ -1,4 +1,13 @@
 # Catheter-Detection-In-3D-Frustum-Ultrasound-Using-Machine-Learning-Method
+The experiment contains two main steps.
+step 1: extract the feature vector from 3d us image. Here we adopt 4 different previously designed handcrafted features, which have a good performance for catheter voxel classification in Cartesian domain , and exploit its capacity in Frustum domain. 
+Feature 1: Objectness features
+Feature 2: Hessian features
+Feature 3: Statistical features
+Feature 4: log-Gabor features
+The step 2 is the voxel-based classification.
+![image](https://user-images.githubusercontent.com/40002403/164995433-be442ef0-db32-4058-96b2-0ad4b9471ee9.png)
+
 ![steps1](https://user-images.githubusercontent.com/40002403/164995163-ef2a7969-2b9d-4290-986b-fd7bc86994f9.JPG)
 
 The PhantomFrustum.mat includes 12 unconverted 3D US images from Phantom recording condition using TEE Ultrasound probe.
