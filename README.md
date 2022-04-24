@@ -13,7 +13,18 @@ Feature 4: log-Gabor features
 
 The step 2 is the voxel-based classification.
 
+3 Discriminant classifiers: 
+
+Linear Support Vector Machine (LSVM)
+
+Linear Discriminant Analysis (LDA)
+
+Random Forest (RF) 
+
+
 ![steps1](https://user-images.githubusercontent.com/40002403/164995163-ef2a7969-2b9d-4290-986b-fd7bc86994f9.JPG)
+
+Leave-One-Out Cross-Validation was performed.
 
 The PhantomFrustum.mat includes 12 unconverted 3D US images from Phantom recording condition using TEE Ultrasound probe.
 For each recording, it includes two type data, one is B-mode image while another one is manually annotated voxel indexes belonging to the catheter.
