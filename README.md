@@ -28,6 +28,8 @@ The figure shows the process of the experiment.
 ![steps1](https://user-images.githubusercontent.com/40002403/164995163-ef2a7969-2b9d-4290-986b-fd7bc86994f9.JPG)
 
 
+Here I list the main scripts of the project.
+
 The PhantomFrustum.mat includes 12 unconverted 3D US images from Phantom recording condition using TEE Ultrasound probe.
 For each recording, it includes two type data, one is B-mode image while another one is manually annotated voxel indexes belonging to the catheter.
 How to generate the mask (example code):
@@ -40,4 +42,6 @@ FeatureExtraction file includes scripts of how to extract the 3D features from 3
 Processing.m is an example of how to extract features from different dataset and different featuer type, also includes how to extract multi-scale features
 
 LOOCVFusion.m shows example of how to perform the Leave-one-out-cross-validaton on each dataset.
+
+The best output results based on RF classifier are in the output files.
 
