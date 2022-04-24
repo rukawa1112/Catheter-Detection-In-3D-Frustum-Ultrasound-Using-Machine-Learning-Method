@@ -1,5 +1,7 @@
 # Catheter-Detection-In-3D-Frustum-Ultrasound-Using-Machine-Learning-Method
 
+Background:Nowadays, 3D ultrasound (US) has been developed rapidly in medical intervention therapies, such as the cardiac catheterization. Conventionally, the 3D imaging methods are based on Cartesian domain, which is limited by bandwidth and information lose when it is converted from the original acquisition space—Frustum domain. The exploration of catheter detection back to Frustum space helps to faciliate the development of instrument detection in terms of system application.
+
 The experiment contains two main steps.
 
 step 1: extract the feature vector from 3d us image. Here we adopt 4 different previously designed handcrafted features, which have a good performance for catheter voxel classification in Cartesian domain , and exploit its capacity in Frustum domain. 
