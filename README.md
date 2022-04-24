@@ -1,4 +1,5 @@
 # Catheter-Detection-In-3D-Frustum-Ultrasound-Using-Machine-Learning-Method
+
 The experiment contains two main steps.
 
 step 1: extract the feature vector from 3d us image. Here we adopt 4 different previously designed handcrafted features, which have a good performance for catheter voxel classification in Cartesian domain , and exploit its capacity in Frustum domain. 
@@ -13,7 +14,7 @@ Feature 4: log-Gabor features
 
 The step 2 is the voxel-based classification.
 
-3 Discriminant classifiers: 
+We applied 3 Discriminant classifiers: 
 
 Linear Support Vector Machine (LSVM)
 
@@ -21,7 +22,7 @@ Linear Discriminant Analysis (LDA)
 
 Random Forest (RF) 
 
-
+The figure shows the process of the experiment.
 ![steps1](https://user-images.githubusercontent.com/40002403/164995163-ef2a7969-2b9d-4290-986b-fd7bc86994f9.JPG)
 
 
