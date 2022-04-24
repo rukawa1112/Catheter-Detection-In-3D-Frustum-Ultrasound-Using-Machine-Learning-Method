@@ -38,4 +38,6 @@ Processing.m is an example of how to extract features from different dataset and
 
 LOOCVFusion.m shows example of how to perform the Leave-one-out-cross-validaton on each dataset.
 
+![image](https://user-images.githubusercontent.com/40002403/164996107-207ceebc-f7cb-4ea5-99b1-ad24b02c8849.png)
 
+![image](https://user-images.githubusercontent.com/40002403/164996124-a05ea61a-d747-4a23-94ca-b6d577e576cb.png)
